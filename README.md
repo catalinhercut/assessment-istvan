@@ -1,71 +1,70 @@
-## 🚩 **Frontend Assignment: Feature Flags Implementation Using a Figma Dashboard**
+# Getting Started with Create React App
 
-### 🎯 **Assignment Goal**
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Using the provided **free Figma dashboard template**, your goal is to create a simple yet effective **client-side feature flag system**. You'll implement these flags to control the visibility of selected UI components from the provided dashboard mockup.
+## Available Scripts
 
-This assignment tests your skills in **frontend architecture**, **conditional rendering** and **decision-making** under limited time.
+In the project directory, you can run:
 
----
+### `npm start`
 
-### 📥 **Resources Provided**
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-✅ **Dashboard Mockup (Figma):**  
-👉 [Free Dashboard UI (Figma Community)](https://www.figma.com/community/file/1020707462188017225)
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-✅ **Feature Flags to Implement**:
-- `showTotalRevenueCard` – Toggles visibility of the "Total Revenue" card.
-- `showActiveUsersWidget` – Toggles the "Active Users" analytics widget.
-- `enableDarkMode` – Toggles between dark and light themes.
-- `showSidebarMessages` – Toggles the messages section in the sidebar.
+### `npm test`
 
----
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### 📌 **Task Breakdown (~2 hours)**
+### `npm run build`
 
-#### **1. Implement Your Feature Flag Logic (~40 min)**
-- Define flags as a JS object or local JSON file.
-- Provide a simple React hook or utility (e.g., `useFeatureFlag("enableDarkMode")`).
-- Enable URL-based overrides for testing (`?enableDarkMode=true`).
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-#### **2. Simplified Dashboard UI Implementation (~80 min)**
-- Build a minimal React layout based on the provided Figma mockup.
-- Clearly demonstrate conditional rendering via your feature flags.
-- Prioritize clear structure and readability over pixel-perfect styling.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-**Suggested Layout Structure**:
-- **Header**
-- **Sidebar**:
-  - Messages *(conditionally rendered via `showSidebarMessages`)*
-- **Main Dashboard Area**:
-  - Total Revenue Card *(conditionally rendered via `showTotalRevenueCard`)*
-  - Active Users Widget *(conditionally rendered via `showActiveUsersWidget`)*
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-#### **3. Decision Journal (~10 min)**
-Briefly answer in your `README.md`:
-- Key assumptions you made.
-- Architectural decisions & reasoning behind them.
-- Trade-offs made due to time constraints.
-- Suggested improvements if deploying to production.
+### `npm run eject`
 
----
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-### 🧪 **Bonus (optional if time allows)**
-- Persist flag states using `localStorage`.
-- Add a simple unit test for the feature flag logic (Jest or React Testing Library).
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
----
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-### ✅ **Evaluation Criteria**
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-| Criteria              | Evaluation Focus                                       |
-|-----------------------|--------------------------------------------------------|
-| **Feature Flag Logic**| Clear, reusable, and logical implementation            |
-| **Conditional UI**    | Intuitive and logical conditional rendering            |
-| **Decision Clarity**  | Clear reasoning and documented trade-offs              |
-| **UX Integration**    | Thoughtful use of feature flags within the UI          |
+## Learn More
 
----
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-### ⏳ **Time Limit**
-**~2 hours maximum.** Aim for clarity and thoughtful decision-making.
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
